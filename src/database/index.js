@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const connectToDB = async () => {
   const connectionUrl =
-    "mongodb+srv://sangammukherjee2022:sangam2024@cluster0.pcwnsgk.mongodb.net/";
+    "mongodb://localhost:27017";
 
   mongoose
     .connect(connectionUrl)
